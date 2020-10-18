@@ -1,0 +1,21 @@
+mutation {
+    createUser(userInput: {name: "Sourav Golui", email: "souravgolui1@gmail.com", password: "123456", mobileNumber: "9547124602"}) {
+        _id
+        name
+        email
+        mobileNumber
+        role
+    }
+}
+
+
+
+query {
+    user {
+        _id
+        name
+        email
+        profilePicture
+        isVerified
+    }
+}
