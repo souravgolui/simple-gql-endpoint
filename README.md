@@ -8,7 +8,7 @@
 `POST http://localhost:8080/graphql`
 
 #### create user
-`POST`
+`POST /graphql`
 ```bash
 {
   mutation: `{
@@ -25,7 +25,7 @@
 ```
 
 #### Retrive user list
-`POST`
+`POST /graphql`
 ```bash
 {
   query: `{
